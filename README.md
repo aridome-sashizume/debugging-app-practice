@@ -29,4 +29,4 @@ git clone git@github.com:aridome-sashizume/debugging-app-practice.git
 '''
 ./vendor/bin/sail up -d
 '''
-3. http://localhost/users/createにアクセス
+3. http://localhost/users/create にアクセス
