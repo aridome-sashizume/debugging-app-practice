@@ -17,16 +17,16 @@ COACHTECH 教材 Tutorial 10-4「デバッグ ハンズオン演習」で作成�
     - モデルに$fillable（Eloquent ORMのマスアサインメントを定義）が足りていないことが原因だった
 - ddやLogの挙動を確認した
     - dd()　Dump and Die：変数の内容を表示して処理を停止
-    - Log；\Log::info() でログを出六
+    - Log：\Log::info() でログを出六
     - tail -5 storage/logs/laravel.logで5行分のログを出力
 
 ## 動作確認
 1. Githubからリポジトリをクローン
-'''
+```
 git clone git@github.com:aridome-sashizume/debugging-app-practice.git
-'''
+```
 2. sailを起動
-'''
+```
 ./vendor/bin/sail up -d
-'''
+```
 3. http://localhost/users/create にアクセス
